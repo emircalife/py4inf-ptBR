@@ -10,9 +10,9 @@
 \index{update}
 \index{variable!updating}
 
-A common pattern in assignment statements is an assignment statement
-that updates a variable -- 
-where the new value of the variable depends on the old.
+Um padrão comum em instruções de atribuição é uma declaração de atribuição
+que atualiza uma variável --
+onde o novo valor da variável depende da idade .
 
 \beforeverb
 \begin{verbatim}
@@ -20,12 +20,12 @@ x = x+1
 \end{verbatim}
 \afterverb
 %
-This means ``get the current value of {\tt x}, add 1, and then
-update {\tt x} with the new value.''
+Isso significa ``pega o valor atual de {\tt x}, adiciona 1, e então
+atualiza {\tt x} com o novo valor.''
 
-If you try to update a variable that doesn't exist, you get an
-error, because Python evaluates the right side before it assigns
-a value to {\tt x}:
+Se você tentar atualizar uma variável que não exista, você vai obter um
+erro, porque Python avalia o lado direito antes de atribuir 
+um valor para {\tt x}:
 
 \beforeverb
 \begin{verbatim}
@@ -34,10 +34,10 @@ NameError: name 'x' is not defined
 \end{verbatim}
 \afterverb
 %
-Before you can update a variable, you have to {\bf initialize}
-it, usually with a simple assignment:
+Antes que você pode atualizar uma variável , você tem que {\ bf initializar }
+que, geralmente com uma simples assinatura:
 
-\index{initialization (before update)}
+\index{initialization (antes de atualizar)}
 
 \beforeverb
 \begin{verbatim}
@@ -46,15 +46,15 @@ it, usually with a simple assignment:
 \end{verbatim}
 \afterverb
 %
-Updating a variable by adding 1 is called an {\bf increment};
-subtracting 1 is called a {\bf decrement}.
+Atualizando uma variável adicionando 1 é chamado um {\bf incremento};
+subtraindo 1 é chamado um {\bf decremento}.
 
-\index{increment}
-\index{decrement}
+\index{incremento}
+\index{decremento}
 
-\section{The {\tt while} statement}
+\section{A condição {\tt while}}
 
-\index{statement!while}
+\index{condição!while}
 \index{while loop}
 \index{loop!while}
 \index{iteration}
